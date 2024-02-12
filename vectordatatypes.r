@@ -27,7 +27,13 @@ numbers <- 1:10
 numbers
 
 
+# Vector with numerical decimals in a sequence
+numbers1 <- 1.5:6.5
+numbers1
 
+# Vector with numerical decimals in a sequence where the last element is not used
+numbers2 <- 1.5:6.3
+numbers2
 
 
 
