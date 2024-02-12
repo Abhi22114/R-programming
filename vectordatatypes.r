@@ -131,6 +131,8 @@ which(var4==30)
 max(var4)
 min(var4)
 length(var4)
+
+
 #aggregate function (max, min)
 
 sort(var4)  #it will sort the vector in ascending 
@@ -172,15 +174,42 @@ seq(1,10) #to print  1to 10 function
 
 
 
-#repeat function in r in vector data structure
-
-
-
-
+#repeat function in r in vector data structure=
+#Repeat Vectors
+#To repeat vectors, use the rep() function:
 #rep function is used to repeat a particular index at the respective times u want 
 
+
 a<-c(1,10,20)
-rep(c(1,10,20),each=2)
-rep(c(1,10,20),times=2)  # this will print the  all the values to times 
+rep(c(1,10,20),each=2) #this will repeat each value two times
+rep(c(1,10,20),times=2)  # this will print the  all the consecutives value two times (1,10,20,1,10,20) 
 rep(c(1,10,20),times=c(2,3,4))#this will print the values vector orderly 2times
 
+
+#Repeat Vectors
+#To repeat vectors, use the rep() function:
+
+#Example
+#Repeat each value:
+
+repeat_each <- rep(c(1,2,3), each = 3)
+
+repeat_each
+
+#Example
+#Repeat the sequence of the vector:
+
+repeat_times <- rep(c(1,2,3), times = 3)
+
+repeat_times
+
+
+
+
+###  Example
+
+###  Repeat each value independently:
+
+repeat_indepent <- rep(c(1,2,3), times = c(5,2,1))  #---->>>This will print the each values independently for times its given. 
+
+repeat_indepent
