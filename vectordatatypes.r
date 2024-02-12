@@ -12,6 +12,17 @@ fruits
 
 
 
+#In this example, we create a vector that combines numerical values:
+
+#Example
+# Vector of numerical values
+numbers <- c(1, 2, 3)
+
+# Print numbers
+numbers
+
+
+
 
 
 #atomic vector
