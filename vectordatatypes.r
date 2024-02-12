@@ -169,6 +169,14 @@ a<-c(20,2,3,40,21,34)
 seq(1,6)  #to print 1 to 6
 
 seq(1,10) #to print  1to 10 function
+
+
+
+#repeat function in r in vector data structure
+
+
+
+
 #rep function is used to repeat a particular index at the respective times u want 
 
 a<-c(1,10,20)
