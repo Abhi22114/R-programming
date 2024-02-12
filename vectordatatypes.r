@@ -1,3 +1,10 @@
+#A vector is simply a list of items that are of the same type.
+
+#To combine the list of items to a vector, use the c() function and separate the items by a comma.
+
+#In the example below, we create a vector variable called fruits, that combine strings:
+
+
 #atomic vector
 print(6)
 print(45L)
