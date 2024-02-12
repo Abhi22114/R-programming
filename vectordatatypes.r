@@ -4,6 +4,15 @@
 
 #In the example below, we create a vector variable called fruits, that combine strings:
 
+# Vector of strings
+fruits <- c("banana", "apple", "orange")
+
+# Print fruits
+fruits
+
+
+
+
 
 #atomic vector
 print(6)
