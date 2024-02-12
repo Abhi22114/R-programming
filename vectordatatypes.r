@@ -46,7 +46,13 @@ log_values
 
 
 
+###--->Vector Length
+To find out how many items a vector has, use the length() function:
 
+Example
+fruits <- c("banana", "apple", "orange")
+
+length(fruits)
 
 
 
