@@ -37,6 +37,22 @@ numbers2
 
 
 
+# Vector of logical values
+log_values <- c(TRUE, FALSE, TRUE, FALSE)
+
+log_values
+
+
+
+
+
+
+
+
+
+
+
+
 
 #atomic vector
 print(6)
