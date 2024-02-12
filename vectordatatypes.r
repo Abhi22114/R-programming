@@ -166,11 +166,32 @@ a[c(0,0,0,3,3,3)]
 
 a<-c(20,2,3,40,21,34)
 
+
+
 #sequence 
 
 seq(1,6)  #to print 1 to 6
-
 seq(1,10) #to print  1to 10 function
+
+#Generating Sequenced Vectors
+#One of the examples on top, showed you how to create a vector with numerical values in a sequence with the : operator:
+
+#Example
+
+numbers <- 1:10
+numbers
+
+#-->To make bigger or smaller steps in a sequence, use the seq() function:
+
+#Example
+
+numbers <- seq(from = 0, to = 100, by = 20)
+
+numbers
+
+#-->.  Note: The seq() function has three parameters: from is where the sequence starts, to is where the sequence stops, and by is the interval of the sequence.
+
+
 
 
 
