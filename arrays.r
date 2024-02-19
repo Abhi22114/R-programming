@@ -16,6 +16,15 @@ arr1
 class(arr1)
 typeof(arr1)
 
+# An array with one dimension with values ranging from 1 to 24
+thisarray <- c(1:24)
+thisarray
+
+# An array with more than one dimension
+multiarray <- array(thisarray, dim = c(4, 3, 2))
+multiarray
+
+
 vect3<-1:10
 vect4<-11:20
 arr2<-array(c(vect3,vect4),dim=c(2,2,4))
