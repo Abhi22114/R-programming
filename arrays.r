@@ -116,3 +116,50 @@ multiarray[c(1),,1]
 # Access all the items from the first column from matrix one
 multiarray <- array(thisarray, dim = c(4, 3, 2))
 multiarray[,c(1),1]
+
+
+
+#Check if an Item Exists
+#to find out if a specified item is present in an array, use the %in% operator:
+
+#Example
+#Check if the value "2" is present in the array:
+
+thisarray <- c(1:24)
+multiarray <- array(thisarray, dim = c(4, 3, 2))
+2 %in% multiarray
+
+
+
+#Amount of Rows and Columns
+#Use the dim() function to find the amount of rows and columns in an array:
+
+#Example
+
+thisarray <- c(1:24)
+multiarray <- array(thisarray, dim = c(4, 3, 2))
+dim(multiarray)
+
+
+#Array Length
+#Use the length() function to find the dimension of an array:
+
+#Example
+
+thisarray <- c(1:24)
+multiarray <- array(thisarray, dim = c(4, 3, 2))
+
+length(multiarray)
+
+
+#Loop Through an Array
+#You can loop through the array items by using a for loop:
+
+#Example
+
+thisarray <- c(1:24)
+multiarray <- array(thisarray, dim = c(4, 3, 2))
+
+for(x in multiarray){
+  print(x)
+}
