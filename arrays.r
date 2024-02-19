@@ -91,3 +91,28 @@ arr==b
 all.equal(arr,b)    
 dim(b)=c(2,2)
 
+
+
+#The syntax is as follow: array[row position, column position, matrix level]
+#Access Array Items
+#You can access the array elements by referring to the index position. You can use the [] brackets to access the desired elements from an array:
+
+#Example
+thisarray <- c(1:24)
+multiarray <- array(thisarray, dim = c(4, 3, 2))
+
+multiarray[2, 3, 2]
+#The syntax is as follow: array[row position, column position, matrix level]
+
+#You can also access the whole row or column from a matrix in an array, by using the c() function:
+
+#Example
+thisarray <- c(1:24)
+
+# Access all the items from the first row from matrix one
+multiarray <- array(thisarray, dim = c(4, 3, 2))
+multiarray[c(1),,1]
+
+# Access all the items from the first column from matrix one
+multiarray <- array(thisarray, dim = c(4, 3, 2))
+multiarray[,c(1),1]
